@@ -1,10 +1,10 @@
 # Define your functions
-def coffee_bot(): 
+def coffee_bot(size, type, cup): 
   print("Welcome to OAKS cafe!")
   size = get_cup_size()
   type = get_drink_type()
   cup = get_cup_type()
-  print("Alright, that\'s a {} {} in a {}!".format(size, type, cup) )
+  print(f"Alright, that's a {size} {type} in a {cup}!") 
   name = input("Can I get your name please?")
   print("Thanks, {}! Your drink will be ready shortly.".format(name))
 
